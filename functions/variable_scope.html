@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Var Scope</title>
+</head>
+<body>
+    
+
+<script>
+    var a = 20;
+    
+    function checkVariable(){
+        var a = 23;
+    };
+    
+    checkVariable;
+    console.log(a); //outputs 20
+    
+</script>
+</body>
+</html>
