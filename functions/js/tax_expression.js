@@ -1,4 +1,4 @@
-function calculateTax(subtotal, taxRate){
+let calculateTax =function (subtotal, taxRate){
     let tax = subtotal * taxRate;
     tax = tax.toFixed(2);
     return tax;
@@ -6,6 +6,7 @@ function calculateTax(subtotal, taxRate){
 };
 
 window.onload = function() {
+    console.log("running...");
     let subtotal = 100;
     let taxRate = 0.25;
     let salesTax = calculateTax(subtotal, taxRate);
