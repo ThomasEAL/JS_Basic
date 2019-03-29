@@ -8,17 +8,16 @@
     
 
 <script>
-    "use strict"
-    //a=19;
-    let a = 21;
+    "use strict"   
+    let a = 21; //global variable
     
     function checkVariable(){
-        a = 23;
-        console.log(a);
+        let a = 50; //local vaiable
+        console.log(a); //outputs 50
     };
     
     checkVariable();
-    console.log(a); 
+    console.log(a); // outputs 21
     
 </script>
 </body>

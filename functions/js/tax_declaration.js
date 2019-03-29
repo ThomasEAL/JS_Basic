@@ -10,7 +10,7 @@ window.onload = function() {
     let taxRate = 0.25;
     let salesTax = calculateTax(subtotal, taxRate);
     
-    document.getElementById('taxOutput').innerHTML ="DK moms: " + salesTax + "<br>";
+    document.getElementById('taxOutput').innerHTML ='DK mom"s: ' + salesTax + "<br>";
     taxRate = 0.20;
     
     salesTax = calculateTax(subtotal, taxRate);
