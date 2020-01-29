@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Var Scope</title>
+</head>
+<body>
+    
+
+<script>
+    "use strict"   
+    let a = 21; //global variable
+    
+    function checkVariable(){
+        let a = 50; //local vaiable
+        console.log(a); //outputs 50
+    };
+    
+    checkVariable();
+    console.log(a); // outputs 21
+    
+</script>
+</body>
+</html>
